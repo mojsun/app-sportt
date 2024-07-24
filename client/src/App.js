@@ -4,7 +4,7 @@ import "./App.css";
 import "./App.scss";
 
 const client = new ApolloClient({
-  uri: "https://your-vercel-deployment-url.vercel.app/graphql",
+  uri: "https://app-sportt-api.vercel.app.vercel.app/graphql",
   cache: new InMemoryCache(),
   credentials: "include", // If you're using cookies for authentication
 });
