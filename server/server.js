@@ -270,7 +270,7 @@ app.use("/images", express.static(path.join(__dirname, "../client/images")));
 
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
-  server.applyMiddleware({ app });
+  server.applyMiddleware({ app, path: "/graphql" });
 
   db.once("open", () => {
     app.listen(PORT, () => {
