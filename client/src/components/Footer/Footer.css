@@ -1,0 +1,91 @@
+#footer {
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+  height: 328px;
+  background-color: #487bca;
+}
+@media (min-width: 576px) {
+  #footer {
+  }
+}
+#footer > div {
+  /* border: 1px dashed pink; */
+}
+#footer .first-col {
+  width: 28.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .first-col .logo {
+  background-color: white;
+  border-radius: 50%;
+  width: 130px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .first-col .logo img {
+  width: 100px;
+}
+#footer .first-col .social {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+#footer .first-col .social-icon {
+  width: 24px;
+  aspect-ratio: 1/1;
+  background-color: white;
+  color: #487bca;
+  border-radius: 50%;
+  display: flex;
+}
+#footer .first-col .social-icon svg {
+  margin: auto;
+}
+#footer .first-col .copy-right {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#footer .second-col {
+  width: calc(100% - 28.5%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#footer .second-col .first-sub-col,
+#footer .second-col .second-sub-col,
+#footer .second-col .third-sub-col {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+#footer .second-col span {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#footer .second-col a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+#footer .second-col a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}

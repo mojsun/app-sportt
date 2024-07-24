@@ -1,0 +1,42 @@
+#under-construction .header {
+  width: 100vw;
+  height: 160px;
+  background-color: #487bca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#under-construction .header img {
+  height: 70%;
+}
+#under-construction .main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#under-construction .main img {
+  padding: 4vw;
+  width: 50%;
+}
+#under-construction .main .text {
+  color: #487bca;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+#under-construction .main .btn {
+  background: #487bca;
+  width: 200px;
+  height: 48px;
+  color: white;
+  padding: 11px;
+  border: 2px solid #487bca;
+  margin-bottom: 10vw;
+}
+#under-construction .main .btn:hover {
+  background: white;
+  color: #487bca;
+  font-weight: 500;
+}

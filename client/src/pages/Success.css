@@ -1,0 +1,27 @@
+#success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed for vertical centering */
+  background-color: #ffffff; /* Light background color */
+}
+
+#success-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; /* White background for content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  height: 55vh;
+  padding-top: 70px;
+}
+
+#success-content h1 {
+  color: #007bff; /* Blue color for heading */
+  margin-bottom: 10px;
+}
+
+#success-content h2 {
+  color: #333; /* Dark color for subheadings */
+  margin-bottom: 5px;
+}

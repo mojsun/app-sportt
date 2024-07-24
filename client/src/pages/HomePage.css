@@ -1,0 +1,214 @@
+#home .hero {
+  position: relative;
+  height: 44vw;
+}
+#home .hero .title {
+  position: absolute;
+  color: white;
+  font-size: 3.1vw;
+  top: 7.2vw;
+  left: 5vw;
+  line-height: 1.2;
+}
+#home .hero .sub-title {
+  position: absolute;
+  color: black;
+  font-size: 1.38vw;
+  top: 20.8vw;
+  left: 5vw;
+  width: 29vw;
+  line-height: 1.2;
+}
+#home .hero .join-now-btn {
+  position: absolute;
+  font-size: 1.38vw;
+  top: 27.3vw;
+  left: 5vw;
+  width: 248px;
+  height: 57px;
+  background-color: #366aba;
+  color: white;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-top: 12px;
+}
+#home .hero .join-now-btn:hover {
+  background-color: white;
+  color: #366aba;
+}
+#home .solutions {
+  margin-bottom: 5vw;
+}
+#home .solutions .title {
+  width: 100vw;
+  font-size: min(16px, 2.1vw);
+  text-align: center;
+  margin: 4.2vw 0;
+}
+#home .solutions .cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10.5vw;
+}
+#home .solutions .cards .card-box {
+  width: 21vw;
+  height: 17.9vw;
+  /* border-radius: 20px;
+  border: 10px solid #c5dbfd; */
+  position: relative;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+#home .solutions .cards .card-box:hover {
+  transform: scale(1.05);
+}
+/* #home .solutions .cards .card:after {
+  border: 10px solid #c5dbfd;
+  background-color: #487bca;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 3vw;
+  width: 21vw;
+  content: "";
+  position: absolute;
+  left: -0.66vw;
+  top: -0.66vw;
+} */
+/* #home .solutions .cards .card:after {
+  height: 3vw;
+  width: 21vw;
+} */
+#home .why {
+  margin-bottom: 7vw;
+}
+#home .why .title {
+  font-family: inter;
+  text-align: center;
+  font-size: 2.1vw;
+  font-weight: 600;
+}
+#home .why .sub-title {
+  font-family: inter;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 600;
+  margin-top: 1.5vw;
+}
+#home .why .lead-title {
+  font-family: inter;
+  text-align: center;
+  font-size: 1.4vw;
+  font-weight: 600;
+  margin-top: 1.5vw;
+}
+#home .why .steps {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+#home .why .steps .step {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 6vw 0 12.5vw;
+  margin-top: 6vw;
+}
+#home .why .steps .step .text {
+  text-align: left;
+  font-family: inter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home .why .steps .step .text .stitle {
+  font-weight: 500;
+  font-size: min(16px, 1vw);
+  margin-bottom: 0.5vw;
+}
+#home .why .steps .step .text .sub-stitle {
+  font-weight: 700;
+  font-size: min(16px, 1vw);
+  margin-bottom: 0.5vw;
+}
+#home .why .steps .step .text .lead-stitle {
+  font-weight: 500;
+  font-size: min(16px, 1vw);
+  margin-bottom: 0.5vw;
+}
+#home .why .steps .step .pic {
+  width: 34vw;
+}
+#home .card-page {
+  width: 90vw;
+  margin-bottom: 5vw;
+}
+#home .join-network {
+  padding: 0 10vw;
+}
+#home .join-network .first-col,
+#home .join-network .second-col {
+  margin-top: 5vw;
+}
+#home .join-network .second-col {
+  margin-bottom: 10vw;
+}
+@media (min-width: 992px) {
+  #home .join-network {
+    padding: 0 10vw;
+  }
+  #home .join-network .first-col,
+  #home .join-network .second-col {
+    margin-top: 5vw;
+    margin-bottom: 8vw;
+  }
+}
+
+#home .join-network .first-col .title {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: inter;
+}
+#home .join-network .first-col .sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inter;
+}
+#home .join-network .second-col select {
+  border-radius: 10px;
+  width: 400px;
+  height: 48px;
+  padding: 10px 20px;
+  size: 16px;
+  font-weight: 400;
+  font-family: inter;
+  border: 1px solid #487bca;
+}
+#home .join-network .second-col input {
+  border-radius: 10px;
+  width: 400px;
+  height: 48px;
+  padding: 10px 20px;
+  size: 16px;
+  font-weight: 500;
+  font-family: inter;
+  border: 1px solid #487bca;
+}
+#home .join-network .second-col .signup-btn {
+  color: white;
+  background-color: #487bca;
+  border-radius: 10px;
+  width: 400px;
+  height: 48px;
+  padding: 10px;
+  size: 16px;
+  font-weight: 500;
+  font-family: inter;
+  border: 2px solid #487bca;
+}
+#home .join-network .second-col .signup-btn:hover {
+  color: #487bca;
+  background-color: white;
+}

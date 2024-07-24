@@ -1,0 +1,74 @@
+#header {
+}
+#header .under-development {
+  background-color: #487bca;
+  width: 100vw;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  width: 100vw;
+}
+#header .main-header > div {
+  /* border: 1px dashed pink; */
+}
+#header .main-header .logo {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header .main-header .logo img {
+  max-height: 90px;
+}
+
+#header .main-header .links {
+  font-family: inter;
+  font-weight: 400;
+  font-size: min(18px, 1.3vw);
+  display: flex;
+  align-items: center;
+  width: 57%;
+  height: 100%;
+  padding-left: 2%;
+}
+#header .main-header .links > a,
+#header .main-header .links > div {
+  color: #3f3c3c;
+  margin-right: 9%;
+  text-decoration: none;
+}
+#header .main-header .links > a.active {
+  color: #487bca;
+  text-decoration: underline;
+  font-weight: 700;
+}
+#header .main-header .login {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header .main-header .login .login-btn {
+  color: black;
+  font-weight: 600;
+  font-size: min(18px, 1.3vw);
+  text-decoration: none;
+}
+#header .main-header .login .signup-btn {
+  background-color: #e5c59a;
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 30px;
+  margin-left: 10%;
+}
