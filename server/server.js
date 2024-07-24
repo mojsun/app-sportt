@@ -245,7 +245,7 @@ const server = new ApolloServer({
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://app-sportt.vercel.app", // Replace with your frontend Vercel URL
+  origin: "https://app-sportt-frontend.vercel.app/", // Replace with your frontend Vercel URL
   methods: ["POST", "GET"],
   credentials: true,
 };
