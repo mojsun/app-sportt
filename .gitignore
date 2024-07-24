@@ -27,3 +27,4 @@ node_modules/
 .package-lock
 .DS_Store
 .env
+.vercel
